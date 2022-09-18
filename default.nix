@@ -31,9 +31,9 @@ buildPythonPackage rec {
 
   meta = with lib; {
     description =
-      "NetworKit is a growing open-source toolkit for large-scale network analysis. ";
+      "NetworKit is a growing open-source toolkit for large-scale network analysis.";
     license = licenses.mit;
     homepage = "https://networkit.github.io/";
-    maintainers = with maintainers; [ teh ];
+    maintainers = with maintainers; [ oliverevans96 ];
   };
 }
